@@ -93,7 +93,7 @@
       <EnableUAC>false</EnableUAC>
     </Link>
     <PostBuildEvent>
-      <Command>cp $(TargetPath) $(SolutionDir)\output</Command>
+      <Command>copy $(TargetPath) $(SolutionDir)\output</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Copying output...</Message>
